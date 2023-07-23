@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: rgb(77, 22, 22);
+}
+
+aside {
+    padding: 1rem;
+    padding-right: 0;
+    color: rgb(194, 197, 197);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.numero {
+    background-color: whitesmoke;
+    color: rgb(77, 22, 22);
+    padding: .2rem;
+    border-radius: .5rem;
+    margin-top: -.2rem;
+}
+
+.btnBolsa.active .numero {
+    background-color: rgb(77, 22, 22);
+    color: whitesmoke;
+    padding: .2rem;
+    border-radius: .5rem;
+    margin-top: -.2rem;
+}
+
+.btnMenu {
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    gap: 1rem;
+    padding: .7rem;
+}
+
+.btnMenu.active {
+    background-color: rgb(194, 197, 197);
+    color: white;
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.btnBolsa {
+    margin-top: 2rem;
+}
+
+main {
+    background-color: rgb(194, 197, 197);
+    margin: 1rem;
+    margin-left: 0;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.tituloHome {
+    color: rgb(77, 22, 22);
+    margin-bottom: 2rem;
+}
+
+.tituloBolsa {
+    color: rgb(77, 22, 22);
+    margin-bottom: 2rem;
+}
+
+.contenedorProducto {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.producto-imagen {
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
+
+.detalle {
+    background-color: rgb(77, 22, 22);
+    border-radius: 0.5rem;
+    color: rgb(194, 197, 197);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: -0.8rem;
+    position: relative;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.agregar {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.agregar:hover {
+    color: white;
+    background-color: rgb(77, 22, 22);
+}
+
+.borrar {
+    margin-top: 1rem;
+    padding: 0.2rem;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.borrar:hover {
+    color: white;
+    background-color: rgb(77, 22, 22);
+}
+
+.bolsaProductoTitulo {
+    font-size: 0.8rem;
+}
+
+/* Bolsa */
+
+.contenedorBolsa {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.bolsaAccion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnVaciar {
+    cursor: pointer;
+    margin: 2rem;
+    padding: .5rem;
+    background-color: rgb(194, 197, 197);
+    color: rgb(77, 22, 22);
+    border-radius: 1rem;
+}
+
+.btnComprar {
+    cursor: pointer;
+    margin: 1rem;
+    padding: .5rem;
+    background-color: rgb(77, 22, 22);
+    color: rgb(194, 197, 197);
+    border-radius: 1rem;
+}
+
+.btnComprar:hover {
+    color: rgb(77, 22, 22);
+    background-color: white;
+}
+
+.btnVaciar:hover {
+    color: white;
+    background-color: rgb(77, 22, 22);
+}
+
+.bolsaVacia {
+    color: rgb(77, 22, 22);
+}
+
+.bolsaComprada {
+    color: rgb(77, 22, 22);
+}
+
+.productosBolsa {
+    display: flex;
+    flex-direction:column;
+    gap: 1rem;
+    
+}
+
+.productoBolsa {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    align-items: center;
+    color: rgb(77, 22, 22);
+    padding: .5rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.imgBolsa {
+    width: 4rem;
+    border-radius: 1rem;
+}
+
+.borrar {
+    color: red;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+}
+
+.accionDer {
+    display: flex;
+    align-items: center;
+}
+
+.accionTotal  {
+    display: flex;
+    padding: .5rem;    
+    background-color: whitesmoke;
+    border-radius: .5rem;
+    gap: .5rem;
+}
+.disabled {
+    display:none;
+}

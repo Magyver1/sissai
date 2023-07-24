@@ -1,141 +1,201 @@
 [
     {
         "id": 1,
-        "nombre": "Anillo de Oro Cubo Ópalo Andino",
-        "material": "Oro Corporativo",
+        "joya": "Anillo de Oro Cubo Ópalo Andino",
+        "categoria": {
+            "nombre": "Anillos",
+            "id": "anillos"
+        },
         "precio": 3400,
         "imagen": "../../assets/Anillo Cubo Opalo Andino.jpeg"
     },
     {
         "id": 2,
-        "nombre": "Anillo de Oro Martillado",
-        "material": "Oro Ecológico",
+        "joya": "Anillo de Oro Martillado Petit 18k",
+        "categoria": {
+            "nombre": "Anillos",
+            "id": "anillos"
+        },
         "precio": 950,
         "imagen": "../../assets/Anillo Oro Martillado.jpeg"
     },
     {
         "id": 3,
-        "nombre": "Anillo de Plata Granalla y Lapislázuli",
-        "material": "Plata",
+        "joya": "Anillo de Plata Granalla y Lapislázuli",
+        "categoria": {
+            "nombre": "Anillos",
+            "id": "anillos"
+        },
         "precio": 850,
         "imagen": "../../assets/Anillo Granalla Lapislazuli.jpg"
     },
     {
         "id": 4,
-        "nombre": "Anillo de Plata Drops Ópalo Andino",
-        "material": "Plata",
+        "joya": "Anillo de Plata Drops Ópalo Andino",
+        "categoria": {
+            "nombre": "Anillos",
+            "id": "anillos"
+        },
         "precio": 650,
         "imagen": "../../assets/Anillo-Drops.jpg"
     },
     {
         "id": 5,
-        "nombre": "Brazalete de Oro Labradorita y Esmeralda",
-        "material": "Oro",
+        "joya": "Brazalete de Oro Labradorita y Esmeralda colección",
+        "categoria": {
+            "nombre": "Brazaletes",
+            "id": "brazaletes"
+        },
         "precio": 6350,
         "imagen": "../../assets/Brazalete Labradorita y Esmeralda.jpg"
     },
     {
         "id": 6,
-        "nombre": "Brazalete de Oro Sauce con Ópalo Andino",
-        "material": "Oro",
+        "joya": "Brazalete de Oro Sauce con Ópalo Andino",
+        "categoria": {
+            "nombre": "Brazaletes",
+            "id": "brazaletes"
+        },
         "precio": 4700,
         "imagen": "../../assets/Brazalete Sauce Opalo Andino.jpg"
     },
     {
         "id": 7,
-        "nombre": "Brazalete de Plata Colección Art Deco",
-        "material": "Plata",
+        "joya": "Brazalete de Plata Colección Art Deco",
+        "categoria": {
+            "nombre": "Brazaletes",
+            "id": "brazaletes"
+        },
         "precio": 1200,
         "imagen": "../../assets/Brazalete Art  Deco.jpg"
     },
     {
         "id": 8,
-        "nombre": "Brazalete de Plata Pacífico Ópalo Andino",
-        "material": "Plata",
+        "joya": "Brazalete de Plata Pacífico Ópalo Andino",
+        "categoria": {
+            "nombre": "Brazaletes",
+            "id": "brazaletes"
+        },
         "precio": 1150,
         "imagen": "../../assets/Brazalete Pacifico Opalo Andino.jpg"
     },
     {
         "id": 9,
-        "nombre": "Collar de Oro Sauce Ópalo Andino Sissai Gold",
-        "material": "Oro",
+        "joya": "Collar de Oro Sauce Ópalo Andino Sissai Gold",
+        "categoria": {
+            "nombre": "Collares",
+            "id": "collares"
+        },
         "precio": 2450,
         "imagen": "../../assets/Collar Sauce Opalo Andino.jpg"
     },
     {
         "id": 10,
-        "nombre": "Collar de Oro Friendship Colección Sissai Gold",
-        "material": "Oro Fairmined",
+        "joya": "Collar de Oro Friendship Colección Sissai Gold",
+        "categoria": {
+            "nombre": "Collares",
+            "id": "collares"
+        },
         "precio": 2500,
         "imagen": "../../assets/Collar Friendship.jpg"
     },
     {
         "id": 11,
-        "nombre": "Collar de Plata Drops Ópalo Andino",
-        "material": "Plata",
+        "joya": "Collar de Plata Drops Ópalo Andino",
+        "categoria": {
+            "nombre": "Collares",
+            "id": "collares"
+        },
         "precio": 480,
         "imagen": "../../assets/Collar Drops Opalo Andino.jpg"
     },
     {
         "id": 12,
-        "nombre": "Collar de Plata Piedra en Bruto Pirita",
-        "material": "Plata",
+        "joya": "Collar de Plata Piedra en Bruto Pirita",
+        "categoria": {
+            "nombre": "Collares",
+            "id": "collares"
+        },
         "precio": 180,
         "imagen": "../../assets/Collar Piedra En Bruto Pirita.jpg"
     },
     {
         "id": 13,
-        "nombre": "Dije de Oro Luna Mármol Blanco Sissai Gold",
-        "material": "Oro",
+        "joya": "Dije de Oro Luna Mármol Blanco Sissai Gold",
+        "categoria": {
+            "nombre": "Dijes",
+            "id": "dijes"
+        },
         "precio": 1100,
         "imagen": "../../assets/Dije Luna.jpg"
     },
     {
         "id": 14,
-        "nombre": "Dije de Oro Signo Zodiacal Sissai Gold",
-        "material": "Oro",
+        "joya": "Dije de Oro Signo Zodiacal Sissai Gold",
+        "categoria": {
+            "nombre": "Dijes",
+            "id": "dijes"
+        },
         "precio": 1180,
         "imagen": "../../assets/Dije Signos.jpg"
     },
     {
         "id": 15,
-        "nombre": "Dije de Plata al Natural Cuarzo Ahumado",
-        "material": "Plata",
+        "joya": "Dije de Plata al Natural Cuarzo Ahumado",
+        "categoria": {
+            "nombre": "Dijes",
+            "id": "dijes"
+        },
         "precio": 500,
         "imagen": "../../assets/Dije Cuarzo Ahumado.jpeg"
     },
     {
         "id": 16,
-        "nombre": "Dije de Plata con Animales en Piedra Obsidiana",
-        "material": "Plata",
+        "joya": "Dije de Plata con Animales en Piedra Obsidiana",
+        "categoria": {
+            "nombre": "Dijes",
+            "id": "dijes"
+        },
         "precio": 580,
         "imagen": "../../assets/Dije Animales Obsidiana.jpg"
     },
     {
         "id": 17,
-        "nombre": "Pulsera de Oro True Colors Coleccion Sissai Gold",
-        "material": "Oro",
+        "joya": "Pulsera de Oro True Colors Coleccion Sissai Gold",
+        "categoria": {
+            "nombre": "Pulseras",
+            "id": "pulseras"
+        },
         "precio": 4200,
         "imagen": "../../assets/Pulsera True Colors.jpeg"
     },
     {
         "id": 18,
-        "nombre": "Pulsera de Oro Petalos con Ópalo Andino",
-        "material": "Oro",
+        "joya": "Pulsera de Oro Petalos con Ópalo Andino",
+        "categoria": {
+            "nombre": "Pulseras",
+            "id": "pulseras"
+        },
         "precio": 3650,
         "imagen": "../../assets/Pulsera Petalos Opalo Andino y Diamante.jpg"
     },
     {
         "id": 19,
-        "nombre": "Pulsera de Plata Oceanos Colección Acqua",
-        "material": "Plata",
+        "joya": "Pulsera de Plata Oceanos Colección Acqua",
+        "categoria": {
+            "nombre": "Pulseras",
+            "id": "pulseras"
+        },
         "precio": 580,
         "imagen": "../../assets/Pulsera Oceanos.jpg"
     },
     {
         "id": 20,
-        "nombre": "Pulsera de Plata Triple Triangulos Colección Kené",
-        "material": "Plata",
+        "joya": "Pulsera de Plata Triple Triangulos Colección Kené",
+        "categoria": {
+            "nombre": "Pulseras",
+            "id": "pulseras"
+        },
         "precio": 260,
         "imagen": "../../assets/Pulsera Triangulo Triple Turmalina Negra y Pirita.jpeg"
     }

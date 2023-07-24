@@ -1,5 +1,4 @@
 
-
 async function obtenerDatosJoyas() {
     try {
         const response = await fetch('./js/joyas.json');
@@ -11,48 +10,54 @@ async function obtenerDatosJoyas() {
     }
 }
 
-async function cargarProductos() {
+// Función para cargar los productos de una categoría específica en la página
+async function cargarProductos(categoriaSeleccionada) {
     const datosJoyas = await obtenerDatosJoyas();
 
-    datosJoyas.forEach(joya => {
+    // Filtrar los productos según la categoría seleccionada
+    const productosFiltrados = datosJoyas.filter(joya => joya.categoria.id === categoriaSeleccionada);
+
+    // Limpiar el contenedor antes de cargar los nuevos productos
+    contenedorHome.innerHTML = "";
+
+    // Agregar los productos filtrados al contenedor
+    productosFiltrados.forEach(joya => {
         const div = document.createElement("div");
         div.classList.add("contenedorHome");
         div.innerHTML = `        
             <img class="producto-imagen" src="${joya.imagen}" alt="${joya.joya}">
             <div class="detalle">
-            <div class="bolsaProductoTitulo">
-            <h3>${joya.joya}</h3>
-            <p class="productoPrecio">${joya.precio} S./</p>
-            <button class="agregar" id="${joya.id}">Agregar</button>
-            </div>
+                <div class="bolsaProductoTitulo">
+                    <h3>${joya.joya}</h3>
+                    <p class="productoPrecio">${joya.precio} S./</p>
+                    <button class="agregar" id="${joya.id}">Agregar</button>
+                </div>
             </div>`;
 
         contenedorHome.appendChild(div);
     });
 }
 
-// Llamamos a la función para cargar los productos cuando el DOM esté listo
-document.addEventListener("DOMContentLoaded", cargarProductos);
+// Llamamos a la función para cargar todos los productos al inicio
+document.addEventListener("DOMContentLoaded", () => {
+    cargarProductos('todos');
+});
 
-// const btncategoria = document.querySelectorAll(".btnCategoria")
+// Obtener todos los botones de categoría y agregarles el evento click
+const btnCategoria = document.querySelectorAll(".btncat");
 
-// btncategoria.forEach(boton => {
-
-//     boton.addEventListener("click", (event) => {
-//         event.currentTarget.classList.add("active");
-//     })
-
-// })
-
-const btncategoria = document.querySelectorAll(".btnCategoria");
-
-btncategoria.forEach(btn => {
+btnCategoria.forEach(btn => {
     btn.addEventListener("click", (event) => {
-        console.log("Botón clickeado");
-        // Remover la clase "active" de todos los botones antes de agregarla al botón clickeado
-        btncategoria.forEach(btn => btn.classList.remove("active"));
+        // Obtener la categoría seleccionada del botón clickeado
+        const categoriaSeleccionada = event.currentTarget.id;
         
+        // Remover la clase "active" de todos los botones antes de agregarla al botón clickeado
+        btnCategoria.forEach(btnItem => btnItem.classList.remove("active"));
+
         // Agregar la clase "active" al botón clickeado
         event.currentTarget.classList.add("active");
+
+        // Cargar los productos de la categoría seleccionada
+        cargarProductos(categoriaSeleccionada);
     });
 });

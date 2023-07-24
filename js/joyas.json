@@ -7,7 +7,7 @@
             "id": "anillos"
         },
         "precio": 3400,
-        "imagen": "../assets/AnilloCuboOpaloAndino.jpg"
+        "imagen": "/assets/AnilloCuboOpaloAndino.jpg"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
             "id": "anillos"
         },
         "precio": 950,
-        "imagen": "../assets/AnilloOroMartillado.jpg"
+        "imagen": "/assets/AnilloOroMartillado.jpg"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
             "id": "anillos"
         },
         "precio": 850,
-        "imagen": "../assets/AnilloGranallaLapislazuli.jpg"
+        "imagen": "/assets/AnilloGranallaLapislazuli.jpg"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
             "id": "anillos"
         },
         "precio": 650,
-        "imagen": "../assets/AnilloDrops.jpg"
+        "imagen": "/assets/AnilloDrops.jpg"
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
             "id": "brazaletes"
         },
         "precio": 6350,
-        "imagen": "../assets/BrazaleteLabradoritayEsmeralda.jpg"
+        "imagen": "/assets/BrazaleteLabradoritayEsmeralda.jpg"
     },
     {
         "id": 6,
@@ -57,7 +57,7 @@
             "id": "brazaletes"
         },
         "precio": 4700,
-        "imagen": "../assets/BrazaleteSauceOpaloAndino.jpg"
+        "imagen": "/assets/BrazaleteSauceOpaloAndino.jpg"
     },
     {
         "id": 7,
@@ -67,7 +67,7 @@
             "id": "brazaletes"
         },
         "precio": 1200,
-        "imagen": "../assets/BrazaleteArtDeco.jpg"
+        "imagen": "/assets/BrazaleteArtDeco.jpg"
     },
     {
         "id": 8,
@@ -77,7 +77,7 @@
             "id": "brazaletes"
         },
         "precio": 1150,
-        "imagen": "../assets/BrazaletePacificoOpaloAndino.jpg"
+        "imagen": "/assets/BrazaletePacificoOpaloAndino.jpg"
     },
     {
         "id": 9,
@@ -87,7 +87,7 @@
             "id": "collares"
         },
         "precio": 2450,
-        "imagen": "../assets/CollarSauceOpaloAndino.jpg"
+        "imagen": "/assets/CollarSauceOpaloAndino.jpg"
     },
     {
         "id": 10,
@@ -97,7 +97,7 @@
             "id": "collares"
         },
         "precio": 2500,
-        "imagen": "../assets/CollarFriendship.jpg"
+        "imagen": "/assets/CollarFriendship.jpg"
     },
     {
         "id": 11,
@@ -107,7 +107,7 @@
             "id": "collares"
         },
         "precio": 480,
-        "imagen": "../assets/CollarDropsOpaloAndino.jpg"
+        "imagen": "/assets/CollarDropsOpaloAndino.jpg"
     },
     {
         "id": 12,
@@ -117,7 +117,7 @@
             "id": "collares"
         },
         "precio": 180,
-        "imagen": "../assets/CollarPiedraEnBrutoPirita.jpg"
+        "imagen": "/assets/CollarPiedraEnBrutoPirita.jpg"
     },
     {
         "id": 13,
@@ -127,7 +127,7 @@
             "id": "dijes"
         },
         "precio": 1100,
-        "imagen": "../assets/DijeLuna.jpg"
+        "imagen": "/assets/DijeLuna.jpg"
     },
     {
         "id": 14,
@@ -137,7 +137,7 @@
             "id": "dijes"
         },
         "precio": 1180,
-        "imagen": "../assets/DijeSignos.jpg"
+        "imagen": "/assets/DijeSignos.jpg"
     },
     {
         "id": 15,
@@ -147,7 +147,7 @@
             "id": "dijes"
         },
         "precio": 500,
-        "imagen": "../assets/DijeCuarzoAhumado.jpg"
+        "imagen": "/assets/DijeCuarzoAhumado.jpg"
     },
     {
         "id": 16,
@@ -157,7 +157,7 @@
             "id": "dijes"
         },
         "precio": 580,
-        "imagen": "../assets/DijeAnimalesObsidiana.jpg"
+        "imagen": "/assets/DijeAnimalesObsidiana.jpg"
     },
     {
         "id": 17,
@@ -167,7 +167,7 @@
             "id": "pulseras"
         },
         "precio": 4200,
-        "imagen": "../assets/PulseraTrueColors.jpg"
+        "imagen": "/assets/PulseraTrueColors.jpg"
     },
     {
         "id": 18,
@@ -177,7 +177,7 @@
             "id": "pulseras"
         },
         "precio": 3650,
-        "imagen": "../assets/PulseraPetalosOpaloAndinoyDiamante.jpg"
+        "imagen": "/assets/PulseraPetalosOpaloAndinoyDiamante.jpg"
     },
     {
         "id": 19,
@@ -187,7 +187,7 @@
             "id": "pulseras"
         },
         "precio": 580,
-        "imagen": "../assets/PulseraOceanos.jpg"
+        "imagen": "/assets/PulseraOceanos.jpg"
     },
     {
         "id": 20,
@@ -197,6 +197,6 @@
             "id": "pulseras"
         },
         "precio": 260,
-        "imagen": "../assets/PulseraTrianguloTripleTurmalinaNegrayPirita.jpg"
+        "imagen": "/assets/PulseraTrianguloTripleTurmalinaNegrayPirita.jpg"
     }
 ]

@@ -1,4 +1,4 @@
-
+// Función asincrónica para obtener los datos de las joyas desde el archivo JSON
 async function obtenerDatosJoyas() {
     try {
         const response = await fetch('./js/joyas.json');
@@ -11,11 +11,13 @@ async function obtenerDatosJoyas() {
 }
 
 // Función para cargar los productos de una categoría específica en la página
-async function cargarProductos(categoriaSeleccionada) {
+async function cargarProductos(categoriaSeleccionada = '') {
     const datosJoyas = await obtenerDatosJoyas();
 
     // Filtrar los productos según la categoría seleccionada
-    const productosFiltrados = datosJoyas.filter(joya => joya.categoria.id === categoriaSeleccionada);
+    const productosFiltrados = categoriaSeleccionada
+        ? datosJoyas.filter(joya => joya.categoria.id === categoriaSeleccionada)
+        : datosJoyas;
 
     // Limpiar el contenedor antes de cargar los nuevos productos
     contenedorHome.innerHTML = "";
@@ -40,7 +42,7 @@ async function cargarProductos(categoriaSeleccionada) {
 
 // Llamamos a la función para cargar todos los productos al inicio
 document.addEventListener("DOMContentLoaded", () => {
-    cargarProductos('todos');
+    cargarProductos(); // Dejar vacío para cargar todos los productos
 });
 
 // Obtener todos los botones de categoría y agregarles el evento click
@@ -50,7 +52,7 @@ btnCategoria.forEach(btn => {
     btn.addEventListener("click", (event) => {
         // Obtener la categoría seleccionada del botón clickeado
         const categoriaSeleccionada = event.currentTarget.id;
-        
+
         // Remover la clase "active" de todos los botones antes de agregarla al botón clickeado
         btnCategoria.forEach(btnItem => btnItem.classList.remove("active"));
 
@@ -60,4 +62,19 @@ btnCategoria.forEach(btn => {
         // Cargar los productos de la categoría seleccionada
         cargarProductos(categoriaSeleccionada);
     });
+});
+
+// Obtener el botón de "Catálogo"
+const btnCatalogo = document.getElementById("catalogo");
+
+// Agregar el evento click al botón de "Catálogo"
+btnCatalogo.addEventListener("click", () => {
+    // Remover la clase "active" del botón seleccionado
+    btnCategoria.forEach(btnItem => btnItem.classList.remove("active"));
+
+    // Agregar la clase "active" al botón de "Catálogo" nuevamente
+    btnCatalogo.classList.add("active");
+
+    // Cargar todos los productos
+    cargarProductos();
 });

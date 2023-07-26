@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -37,10 +35,52 @@
                 Joyería Sissai | Bolsa
             </h2>
             <div class="contenedorBolsa">
-                <p class="bolsaVacia"><i class="bi bi-emoji-frown-fill"></i> Tu bolsa está vacía.</p>
+                <p class="bolsaVacia"><i class="bi bi-emoji-frown-fill"></i> Tu bolsa esta vacía.</p>
 
                 <div class="productosBolsa disabled">
-                    <!-- Los productos se agregan aquí dinámicamente desde bolsa.js -->
+                    <div class="productoBolsa">
+
+                        <img class="imgBolsa" src="../assets/Anillo Cubo Opalo Andino.jpeg" alt="">
+
+                        <div class="bolsaProductoTitulo">
+                            <h3>Anillo de Oro Cubo Ópalo Andino</h3>
+                        </div>
+                        <div class="bolsaCantidad">
+                            <small>Cantidad</small>
+                            <p>1</p>
+                        </div>
+                        <div class="precioBolsa">
+                            <small>Precio</small>
+                            <p>1850</p>
+                        </div>
+                        <div class="subtotalBolsa">
+                            <small>Subtotal</small>
+                            <p>1850</p>
+                        </div>
+                        <button class="borrar"><i class="bi bi-trash-fill"></i></button>
+                    </div>
+
+                    <div class="productoBolsa">
+
+                        <img class="imgBolsa" src="../assets/Anillo Granalla Lapislazuli.jpg" alt="">
+
+                        <div class="bolsaProductoTitulo">
+                            <h3>Anillo de Plata Granalla y Lapilázuli</h3>
+                        </div>
+                        <div class="bolsaCantidad">
+                            <small>Cantidad</small>
+                            <p>1</p>
+                        </div>
+                        <div class="precioBolsa">
+                            <small>Precio</small>
+                            <p>650</p>
+                        </div>
+                        <div class="subtotalBolsa">
+                            <small>Subtotal</small>
+                            <p>650</p>
+                        </div>
+                        <button class="borrar"><i class="bi bi-trash-fill"></i></button>
+                    </div>
                 </div>
 
                 <div class="bolsaAccion disabled">
@@ -50,14 +90,17 @@
                     <div class="accionDer">
                         <div class="accionTotal">
                             <p>Total: </p>
-                            <p id="total"> 0 S/.</p>
+                            <p id="total"> 2500 S/.</p>
                         </div>
                         <button class="btnComprar">Hacer compra</button>
                     </div>
                 </div>
                 <p class="bolsaComprada disabled"><i class="bi bi-emoji-heart-eyes-fill"></i> Gracias por tu compra</p>
             </div>
+            
+
         </main>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.js"></script>

@@ -198,5 +198,45 @@
         },
         "precio": 260,
         "imagen": "assets/PulseraTrianguloTripleTurmalinaNegrayPirita.jpg"
+    },
+    {
+        "id": 21,
+        "joya": "Arete de Oro Summer Chain Sissai Gold",
+        "categoria": {
+            "nombre": "Aretes",
+            "id": "aretes"
+        },
+        "precio": 1980,
+        "imagen": "assets/AretedeOroSummerChain.jpg"
+    },
+    {
+        "id": 22,
+        "joya": "Aretes de Plata Lanza XL Obsidiana",
+        "categoria": {
+            "nombre": "Aretes",
+            "id": "aretes"
+        },
+        "precio": 580,
+        "imagen": "assets/AretesLanzaXL.jpg"
+    },
+    {
+        "id": 23,
+        "joya": "Aretes de Oro Colgante Lazo Corazón",
+        "categoria": {
+            "nombre": "Aretes",
+            "id": "aretes"
+        },
+        "precio": 3100,
+        "imagen": "assets/AretesLazoCorazon.jpg"
+    },
+    {
+        "id": 24,
+        "joya": "Aretes de Plata Mares Colección Acqua",
+        "categoria": {
+            "nombre": "Aretes",
+            "id": "aretes"
+        },
+        "precio": 650,
+        "imagen": "assets/AretesMares.jpg"
     }
 ]

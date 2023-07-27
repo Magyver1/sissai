@@ -1,6 +1,27 @@
 
 //PROYECTO JOYERÍA SISSAI
 
+// Mensaje de Bienvenida
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Verificar si ya se mostró el mensaje de bienvenida en el pasado
+    const mensajeMostrado = localStorage.getItem('mensajeMostrado');
+
+    if (!mensajeMostrado) {
+        // Si el mensaje no ha sido mostrado previamente, mostrar el alert de bienvenida
+        Swal.fire({
+            icon: 'success',
+            title: '¡Bienvenido a mi Proyecto Final!',
+            text: 'Espero sea de su agrado.',
+            confirmButtonText: 'Aceptar'
+        });
+
+        // Almacenar en el localStorage que el mensaje fue mostrado
+        localStorage.setItem('mensajeMostrado', 'true');
+    }
+});
+
+
 // Función asincrónica para obtener los datos de las joyas desde el archivo JSON
 async function obtenerDatosJoyas() {
     try {

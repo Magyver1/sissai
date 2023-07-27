@@ -251,3 +251,7 @@ main {
 #disabled {
     display: none;
 }
+
+#footer {
+    text-align: center;
+}

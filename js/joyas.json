@@ -238,5 +238,15 @@
         },
         "precio": 650,
         "imagen": "assets/AretesMares.jpg"
+    },
+    {
+        "id": 25,
+        "joya": "Prueba",
+        "categoria": {
+            "nombre": "Blockchain",
+            "id": "blockchain"
+        },
+        "precio": 100,
+        "imagen": "assets/PulseraOceanos.jpg"
     }
 ]
